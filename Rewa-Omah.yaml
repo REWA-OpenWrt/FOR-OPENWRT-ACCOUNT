@@ -1,0 +1,37 @@
+proxies:
+- name: TR DENI
+  type: trojan
+  server: 43.252.237.242
+  port: 443
+  password: 163af27e-e8d8-476f-ad55-9e94db632103
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+#  interface-name: eth1
+- name: TR DENI2
+  type: trojan
+  server: 43.252.237.242
+  port: 443
+  password: 163af27e-e8d8-476f-ad55-9e94db632103
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+#  interface-name: eth1
+- name: TR Biznet hwd
+  type: trojan
+  server: 103.150.97.135
+  port: 443
+  password: 941c6350-27b3-11ed-8743-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+#  interface-name: eth1
+- name: TR DENI2
+  type: trojan
+  server: 103.150.97.135
+  port: 443
+  password: f6fff190-278e-11ed-a11a-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+#  interface-name: eth1
