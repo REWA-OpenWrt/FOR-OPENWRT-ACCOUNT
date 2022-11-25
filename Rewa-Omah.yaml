@@ -1,18 +1,18 @@
 proxies:
-- name: TR DENI
+- name: TR Deni
   type: trojan
-  server: 103.178.174.209
+  server: 202.73.26.69
   port: 443
-  password: b4a70018-bce0-4142-8c27-d39c9511f17e
+  password: 6910274a-479d-476f-b44a-24dfb3f09c71
   udp: true
   sni: meet.google.com
   skip-cert-verify: true
 #  interface-name: eth1
-- name: TR DENI2
+- name: TR howdy
   type: trojan
-  server: 103.178.174.209
+  server: 202.73.26.69
   port: 443
-  password: b4a70018-bce0-4142-8c27-d39c9511f17e
+  password: 6910274a-479d-476f-b44a-24dfb3f09c71
   udp: true
   sni: meet.google.com
   skip-cert-verify: true
